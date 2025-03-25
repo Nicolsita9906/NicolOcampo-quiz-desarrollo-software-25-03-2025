@@ -14,7 +14,7 @@ public class Moto {
 	}
 
 	public Moto(Marca marca, String placa, int cilindraje, double precio, String color) {
-		super();
+		this.id = UUID.randomUUID().toString();
 		this.marca = marca;
 		this.placa = placa;
 		this.cilindraje = cilindraje;

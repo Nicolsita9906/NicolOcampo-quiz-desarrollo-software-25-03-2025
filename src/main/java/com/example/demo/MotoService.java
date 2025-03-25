@@ -14,7 +14,7 @@ public class MotoService {
 	
 	public MotoService (MotoRepository servicio) {
 		this.servicio = servicio;
-		
+		datosMuertos();
 		
 	}
 	
