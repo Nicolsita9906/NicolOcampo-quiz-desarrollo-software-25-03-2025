@@ -1,6 +1,5 @@
 package com.example.demo;
 import java.util.UUID;
-
 import funcionalidad.Marca;
 public class Moto {
 	String id;
@@ -70,6 +69,7 @@ public class Moto {
 	public void setColor(String color) {
 		this.color = color;
 	}
+
 	
 
 }
