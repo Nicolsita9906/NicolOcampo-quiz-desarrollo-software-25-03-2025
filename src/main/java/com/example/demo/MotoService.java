@@ -18,6 +18,15 @@ public class MotoService {
 		
 	}
 	
+	public void datosMuertos () {
+		crearMoto (new Moto (Marca.KAWASAKI, "PL456L", 150, 500.6, "VERDE" ));
+		crearMoto (new Moto (Marca.HONDA, "DL456LL", 250, 500.6, "NEGRA" ));
+		crearMoto (new Moto (Marca.KAWASAKI, "KJR567MJ", 350, 500.6, "VERDE" ));
+		crearMoto (new Moto (Marca.VICTORY, "HG456L", 150, 500.6, "AZUL" ));
+		crearMoto (new Moto (Marca.YAMAHA, "PL233L", 150, 500.6, "NEGRA" ));
+		
+	}
+	
 	public Map <Marca, List<Moto>> obtenerMotos (){
 		return servicio.obtenerMotos();
 	}
